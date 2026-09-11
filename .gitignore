@@ -1,0 +1,28 @@
+# Card data and official rules documents are the publisher's IP.
+# Fetched/placed locally at runtime, never committed.
+data/
+docs/rules/*.pdf
+docs/rules/*.png
+docs/rules/*.jpg
+docs/rules/*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Env / editor
+.env
+.DS_Store
+.idea/
+.vscode/
+
+# Machine-local tool settings. Ignored here rather than relying on a contributor's
+# global gitignore.
+.claude/settings.local.json
