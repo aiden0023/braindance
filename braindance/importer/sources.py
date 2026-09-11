@@ -19,7 +19,7 @@ import httpx
 
 USER_AGENT = (
     "braindance/0.1 (Cyberpunk TCG deck analysis; "
-    "https://github.com/aidenfornalski/braindance)"
+    "https://github.com/aiden0023/braindance)"
 )
 
 DEFAULT_CACHE_DIR = Path("data")
